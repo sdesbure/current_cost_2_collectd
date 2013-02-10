@@ -16,3 +16,8 @@ tmp
 .yardoc
 _yardoc
 doc/
+.ssh
+.bash_logout
+.bashrc
+.profile
+.bash_history

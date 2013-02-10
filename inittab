@@ -1,0 +1,3 @@
+# ----- foreman current_cost processes -----
+CU01:4:respawn:/bin/su - current_cost -c 'cd /opt/current_cost;export PORT=5000;./current_cost_collectd.rb >> /var/log/current_cost/current_cost-1.log 2>&1'
+# ----- end foreman current_cost processes -----
