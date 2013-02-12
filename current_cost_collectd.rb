@@ -16,7 +16,7 @@ require 'nokogiri'
   power:       '//ch1/watts',
 }
 
-@debug = !ENV['DEBUG].nil?
+@debug = !ENV['DEBUG'].nil?
 
 def parse_data data, stats
   xml = Nokogiri::XML data
